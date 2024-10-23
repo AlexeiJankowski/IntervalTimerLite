@@ -1,6 +1,6 @@
-⏱️ #Interval Timer Lite
+#Interval Timer Lite
 
-🚀 ##Features
+##Features
 🔄 Create, update, and delete custom timers.
 🕒 Configure multiple sets, main time, and rest time for each timer.
 📋 View and manage a list of saved timers.
@@ -8,7 +8,7 @@
 🗂️ Persistent data storage.
 📦 MVVM Architecture.
 
-🛠️ ##Technology Stack
+##Technology Stack
 Kotlin: The primary programming language.
 Jetpack Compose: For building modern, declarative UIs.
 Room: SQLite-based database for local data storage.
