@@ -1,8 +1,9 @@
 package com.hfad.intervaltimerlite.data
 
+import android.util.Log
 import kotlinx.coroutines.flow.Flow
 
-class TimerRepository(private val timerDao: TimerDao) {
+class TimerRepositoryImpl(private val timerDao: TimerDao) {
     suspend fun addTimer(timer: Timer) {
         timerDao.addTimer(timer)
     }
@@ -16,6 +17,7 @@ class TimerRepository(private val timerDao: TimerDao) {
     }
 
     suspend fun updateTimer(timer: Timer) {
+        Log.d("UPDATE2", timer.timerName)
         timerDao.updateTimer(timer)
     }
 
